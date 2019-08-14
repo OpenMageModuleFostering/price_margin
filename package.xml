@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>price_margin</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Customers based pricing for Magento</summary>
+    <description>Price Margin is a useful Magento extension which helps you set different product price for customer or customer group. </description>
+    <notes>Stable version, tested with Magento from 1.5 to 1.9</notes>
+    <authors><author><name>Magebuzz</name><user>magebuzz</user><email>magebuzz@gmail.com</email></author></authors>
+    <date>2014-06-27</date>
+    <time>08:17:29</time>
+    <contents><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="pricemargin.xml" hash=""/></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Magebuzz_Pricemargin.csv" hash=""/></dir></target><target name="mageetc"><dir name="modules"><file name="Magebuzz_Pricemargin.xml" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
